@@ -1,8 +1,8 @@
 $(document).ready(function () {
-    var currentFloor = 2; // переменная, где хратиться текущий этаж
-    var floorPath = $(".home-image path"); // каждый отдельный этаж в SVG
-    var counterUp = $(".counter-up"); // кнопка увеличения этажа  
-    var counterDown = $(".counter-down"); // кнопка уменьшение этажа 
+    let currentFloor = 2; // переменная, где хратиться текущий этаж
+    let floorPath = $(".home-image path"); // каждый отдельный этаж в SVG
+    let counterUp = $(".counter-up"); // кнопка увеличения этажа  
+    let counterDown = $(".counter-down"); // кнопка уменьшение этажа 
 
     // функция при наведении мышью на этаж 
     floorPath.on("mouseover", function () {
